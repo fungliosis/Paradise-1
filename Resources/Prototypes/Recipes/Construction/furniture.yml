@@ -72,6 +72,56 @@
 
 - type: construction
   parent: BaseChair
+  id: ChairComfyBrown
+  targetNode: chairComfyBrown
+
+- type: construction
+  parent: BaseChair
+  id: ChairComfyRed
+  targetNode: chairComfyRed
+
+- type: construction
+  parent: BaseChair
+  id: ChairComfyTeal
+  targetNode: chairComfyTeal
+
+- type: construction
+  parent: BaseChair
+  id: ChairComfyGreen
+  targetNode: chairComfyGreen
+
+- type: construction
+  parent: BaseChair
+  id: ChairComfyPurple
+  targetNode: chairComfyPurple
+
+- type: construction
+  parent: BaseChair
+  id: ChairComfyBlue
+  targetNode: chairComfyBlue
+
+- type: construction
+  parent: BaseChair
+  id: ChairComfyBeige
+  targetNode: chairComfyBeige
+
+- type: construction
+  parent: BaseChair
+  id: ChairComfyLime
+  targetNode: chairComfyLime
+
+- type: construction
+  parent: BaseChair
+  id: ChairComfyYellow
+  targetNode: chairComfyYellow
+
+- type: construction
+  parent: BaseChair
+  id: ChairComfyOrange
+  targetNode: chairComfyOrange
+
+- type: construction
+  parent: BaseChair
   id: ChairComfy
   targetNode: chairComfy
 

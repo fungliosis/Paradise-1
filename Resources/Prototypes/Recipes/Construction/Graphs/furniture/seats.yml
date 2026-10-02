@@ -41,6 +41,62 @@
             - material: Steel
               amount: 2
               doAfter: 1
+        - to: chairComfyBrown
+          steps:
+            - material: Steel
+              amount: 2
+              doAfter: 1
+        - to: chairComfyRed
+          steps:
+            - material: Steel
+              amount: 2
+              doAfter: 1
+        - to: chairComfyTeal
+          steps:
+            - material: Steel
+              amount: 2
+              doAfter: 1
+        - to: chairComfyGreen
+          steps:
+            - material: Steel
+              amount: 2
+              doAfter: 1
+        - to: chairComfyPurple
+          steps:
+            - material: Steel
+              amount: 2
+              doAfter: 1
+        - to: chairComfyBlue
+          steps:
+            - material: Steel
+              amount: 2
+              doAfter: 1
+        - to: chairComfyBeige
+          steps:
+            - material: Steel
+              amount: 2
+              doAfter: 1
+        - to: chairComfyLime
+          steps:
+            - material: Steel
+              amount: 2
+              doAfter: 1
+        - to: chairComfyYellow
+          steps:
+            - material: Steel
+              amount: 2
+              doAfter: 1
+        - to: chairComfyOrange
+          steps:
+            - material: Steel
+              amount: 2
+              doAfter: 1
+        # Paradise Content - Corporate Comfy Chairs
+        - to: chairComfyCorporate
+          steps:
+            - material: Steel
+              amount: 2
+              doAfter: 1
         - to: chairPilotSeat
           steps:
             - material: Steel
@@ -92,6 +148,63 @@
               doAfter: 1
             - material: Cloth
               amount: 1
+        #region Paradise Content - Sofas/Pews
+        - to: sofaMiddle
+          steps:
+            - material: Steel
+              amount: 2
+              doAfter: 1
+        - to: sofaEndRight
+          steps:
+            - material: Steel
+              amount: 2
+              doAfter: 1
+        - to: sofaEndLeft
+          steps:
+            - material: Steel
+              amount: 2
+              doAfter: 1
+        - to: sofaCorner
+          steps:
+            - material: Steel
+              amount: 2
+              doAfter: 1
+        - to: sofaMiddleCorporate
+          steps:
+            - material: Steel
+              amount: 2
+              doAfter: 1
+        - to: sofaEndRightCorporate
+          steps:
+            - material: Steel
+              amount: 2
+              doAfter: 1
+        - to: sofaEndLeftCorporate
+          steps:
+            - material: Steel
+              amount: 2
+              doAfter: 1
+        - to: sofaCornerCorporate
+          steps:
+            - material: Steel
+              amount: 2
+              doAfter: 1
+        - to: pewMiddle
+          steps:
+            - material: WoodPlank
+              amount: 5
+              doAfter: 1
+        - to: pewEndRight
+          steps:
+            - material: WoodPlank
+              amount: 5
+              doAfter: 1
+        - to: pewEndLeft
+          steps:
+            - material: WoodPlank
+              amount: 5
+              doAfter: 1
+        #endregion Paradise Content - Sofas/Pews
 
     - node: chair
       entity: Chair
@@ -151,6 +264,138 @@
 
     - node: chairOfficeDark
       entity: ChairOfficeDark
+      edges:
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: SheetSteel1
+              amount: 2
+          steps:
+            - tool: Screwing
+              doAfter: 1
+
+    - node: chairComfy
+      entity: ComfyChair
+      edges:
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: SheetSteel1
+              amount: 2
+          steps:
+            - tool: Screwing
+              doAfter: 1
+    # Paradise Content - Corporate Comfy Chairs
+    - node: chairComfyCorporate
+      entity: ComfyChairCorporate
+      edges:
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: SheetSteel1
+              amount: 2
+          steps:
+            - tool: Screwing
+              doAfter: 1
+
+    - node: chairComfyBrown
+      entity: ComfyChairBrown
+      edges:
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: SheetSteel1
+              amount: 2
+          steps:
+            - tool: Screwing
+              doAfter: 1
+
+    - node: chairComfyRed
+      entity: ComfyChairRed
+      edges:
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: SheetSteel1
+              amount: 2
+          steps:
+            - tool: Screwing
+              doAfter: 1
+
+    - node: chairComfyTeal
+      entity: ComfyChairTeal
+      edges:
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: SheetSteel1
+              amount: 2
+          steps:
+            - tool: Screwing
+              doAfter: 1
+
+    - node: chairComfyGreen
+      entity: ComfyChairGreen
+      edges:
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: SheetSteel1
+              amount: 2
+          steps:
+            - tool: Screwing
+              doAfter: 1
+
+    - node: chairComfyPurple
+      entity: ComfyChairPurple
+      edges:
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: SheetSteel1
+              amount: 2
+          steps:
+            - tool: Screwing
+              doAfter: 1
+
+    - node: chairComfyBlue
+      entity: ComfyChairBlue
+      edges:
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: SheetSteel1
+              amount: 2
+          steps:
+            - tool: Screwing
+              doAfter: 1
+
+    - node: chairComfyBeige
+      entity: ComfyChairBeige
+      edges:
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: SheetSteel1
+              amount: 2
+          steps:
+            - tool: Screwing
+              doAfter: 1
+
+    - node: chairComfyLime
+      entity: ComfyChairLime
+      edges:
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: SheetSteel1
+              amount: 2
+          steps:
+            - tool: Screwing
+              doAfter: 1
+
+    - node: chairComfyYellow
+      entity: ComfyChairYellow
       edges:
         - to: start
           completed:
@@ -295,3 +540,137 @@
               doAfter: 1
             - tool: Screwing
               doAfter: 1
+    # region Paradise Content - Sofas/Pews
+
+    - node: sofaMiddle
+      entity: SofaMiddle
+      edges:
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: SheetSteel1
+              amount: 2
+          steps:
+            - tool: Screwing
+              doAfter: 1
+
+    - node: sofaEndRight
+      entity: SofaEndRight
+      edges:
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: SheetSteel1
+              amount: 2
+          steps:
+            - tool: Screwing
+              doAfter: 1
+
+    - node: sofaEndLeft
+      entity: SofaEndLeft
+      edges:
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: SheetSteel1
+              amount: 2
+          steps:
+            - tool: Screwing
+              doAfter: 1
+
+    - node: sofaCorner
+      entity: SofaCorner
+      edges:
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: SheetSteel1
+              amount: 2
+          steps:
+            - tool: Screwing
+              doAfter: 1
+
+    - node: sofaMiddleCorporate
+      entity: SofaMiddleCorporate
+      edges:
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: SheetSteel1
+              amount: 2
+          steps:
+            - tool: Screwing
+              doAfter: 1
+
+    - node: sofaEndRightCorporate
+      entity: SofaEndRightCorporate
+      edges:
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: SheetSteel1
+              amount: 2
+          steps:
+            - tool: Screwing
+              doAfter: 1
+
+    - node: sofaEndLeftCorporate
+      entity: SofaEndLeftCorporate
+      edges:
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: SheetSteel1
+              amount: 2
+          steps:
+            - tool: Screwing
+              doAfter: 1
+
+    - node: sofaCornerCorporate
+      entity: SofaCornerCorporate
+      edges:
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: SheetSteel1
+              amount: 2
+          steps:
+            - tool: Screwing
+              doAfter: 1
+
+    - node: pewMiddle
+      entity: PewMiddle
+      edges:
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: MaterialWoodPlank1
+              amount: 5
+          steps:
+            - tool: Screwing
+              doAfter: 1
+
+    - node: pewEndRight
+      entity: PewEndRight
+      edges:
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: MaterialWoodPlank1
+              amount: 5
+          steps:
+            - tool: Screwing
+              doAfter: 1
+
+    - node: pewEndLeft
+      entity: PewEndLeft
+      edges:
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: MaterialWoodPlank1
+              amount: 5
+          steps:
+            - tool: Screwing
+              doAfter: 1
+# endregion Paradise Content - Sofas/Pews
