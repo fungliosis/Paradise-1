@@ -232,6 +232,7 @@
       node: chairComfyCorporate
     - type: ChairArmrest
       armrestOverlay: comfychair_corp_armrest
+<<<<<<< HEAD
 
 - type: entity
   id: ComfyChairBrown
@@ -354,6 +355,8 @@
       graph: Seat
       node: chairComfyOrange
 
+=======
+>>>>>>> 31c6699ddd24660fb0266c38a7add7d422651f8d
 
 - type: entity
   name: pilot seat

@@ -41,6 +41,7 @@
             - material: Steel
               amount: 2
               doAfter: 1
+<<<<<<< HEAD
         - to: chairComfyBrown
           steps:
             - material: Steel
@@ -91,6 +92,8 @@
             - material: Steel
               amount: 2
               doAfter: 1
+=======
+>>>>>>> 31c6699ddd24660fb0266c38a7add7d422651f8d
         # Paradise Content - Corporate Comfy Chairs
         - to: chairComfyCorporate
           steps:
@@ -297,6 +300,7 @@
           steps:
             - tool: Screwing
               doAfter: 1
+<<<<<<< HEAD
 
     - node: chairComfyBrown
       entity: ComfyChairBrown
@@ -417,6 +421,8 @@
           steps:
             - tool: Screwing
               doAfter: 1
+=======
+>>>>>>> 31c6699ddd24660fb0266c38a7add7d422651f8d
 
     - node: chairPilotSeat
       entity: ChairPilotSeat
